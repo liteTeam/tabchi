@@ -1,7 +1,7 @@
 ﻿------------------------
 -- In The Name Of GoD --
 -- Satring Panel.lua  --
---      By Bibak      --
+--   By Lite Team     --
 ------------------------
 local URL = require "socket.url"
 local https = require "ssl.https"
@@ -13,7 +13,7 @@ local offset = 0
 local redis = require('redis')
 local redis = redis.connect('127.0.0.1', 6379)
 local botcli = 460139006
-local SUDO = 304933903
+local SUDO = 199078201
 local BOT = 1
 local BOT2 = 2
 local BOT3 = 3
@@ -158,7 +158,7 @@ local function run()
 								end
 							Canswer(q.id,result)
 							end
--------- Back To Main-------#Bibak---------------
+-------- Back To Main-------#Lite TEam---------------
 							if q.data:match('main') then
 							local chat = '-'..q.data:match('(%d+)$')
 							local function is_lock(chat,value)
@@ -213,7 +213,7 @@ local function run()
 							}
             edit(q.inline_message_id,'⇩⇩⇩⇩ *Panel For* `•[BoT 1]•` ⇩⇩⇩⇩',keyboard)
             end
---------Close-------#Bibak
+--------Close-------#Lite Team
 						if q.data:match('close') then
                            local chat = '-'..q.data:match('(%d+)$')
 		local keyboard = {}
@@ -224,7 +224,7 @@ local function run()
 							}
               edit(q.inline_message_id,'• *Done*\n• `Panel` *Closed*.',keyboard)
             end
---------Help-------#Bibak
+--------Help-------#Lite Team
 			if q.data:match('help') then
                            local chat = '-'..q.data:match('(%d+)$')
 		                    local keyboard = {}
@@ -233,10 +233,10 @@ local function run()
                    {text = '> Back', callback_data = 'firstmenu1:'..chat}
 				}
 							}
-             local text = '•[⇩راهنمای دستورات⇩]•\n➖➖➖➖➖➖\n• reload contacts\n• بازنگری مخاطبین\n••• برای شمارش دقیق مخاطبین از این دستور استفاده نمایید.\n➖➖➖➖➖➖\n• modset USERID\n• افزودن ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• moddem USERID\n• حذف ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• link list\n• دریافت لیست لینک های ربات\n➖➖➖➖➖➖\n• fwd users\n• فروارد پیام به کاربران (با ریپلی)\n➖➖➖➖➖➖\n• fwd groups\n• فروارد پیام به گروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd sgroups\n• فروارد پیام به سوپرگروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd all\n• فروارد پیام به همه (کاربران،گروه ها،سوپرگروه ها)،(با ریپلی)\n➖➖➖➖➖➖\n• on\n• اطلاع از آنلاین بودن ربات\n➖➖➖➖➖➖\n• addall USERID\n• افزودن کاربر مورد نظر به تمامیه گروه ها\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• addcontacts\n• افزودن مخاطبان در گروه\n➖➖➖➖➖➖\n• reload stats\n• ریست کردن امار ربات\n➖➖➖➖➖➖\n• echo TEXT\n• تکرار کردن متن\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• bc TEXT\n• ارسال متن به تمامیه سوپرگروه ها\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• setname "FIRST" LAST\n• تنظیم نام\n••• به جای FIRST اسم و بجای LAST فامیل موردنظرتان را قرار دهید .\n➖➖➖➖➖➖\n• setusername USERNAME\n• تنظیم نام کاربری\n••• به جای USERNAME نام کاربری مورد نظرتان را بدون @ قرار دهید .\n➖➖➖➖➖➖\n• delusername\n• حذف نام کاربری\n➖➖➖➖➖➖\n▪ از انتشار این سورس به هیچ وجه راضی نمیباشیم ...\n▪▪ نوشته شده توسط :\n▪▪ [Bibak](https://t.me/bannedbylife)\n▪▪▪ کانال :\n▪▪▪ [BG TeaM](https://t.me/BG_TeaM)'
+             local text = '•[⇩راهنمای دستورات⇩]•\n➖➖➖➖➖➖\n• reload contacts\n• بازنگری مخاطبین\n••• برای شمارش دقیق مخاطبین از این دستور استفاده نمایید.\n➖➖➖➖➖➖\n• modset USERID\n• افزودن ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• moddem USERID\n• حذف ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• link list\n• دریافت لیست لینک های ربات\n➖➖➖➖➖➖\n• fwd users\n• فروارد پیام به کاربران (با ریپلی)\n➖➖➖➖➖➖\n• fwd groups\n• فروارد پیام به گروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd sgroups\n• فروارد پیام به سوپرگروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd all\n• فروارد پیام به همه (کاربران،گروه ها،سوپرگروه ها)،(با ریپلی)\n➖➖➖➖➖➖\n• on\n• اطلاع از آنلاین بودن ربات\n➖➖➖➖➖➖\n• addall USERID\n• افزودن کاربر مورد نظر به تمامیه گروه ها\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• addcontacts\n• افزودن مخاطبان در گروه\n➖➖➖➖➖➖\n• reload stats\n• ریست کردن امار ربات\n➖➖➖➖➖➖\n• echo TEXT\n• تکرار کردن متن\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• bc TEXT\n• ارسال متن به تمامیه سوپرگروه ها\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• setname "FIRST" LAST\n• تنظیم نام\n••• به جای FIRST اسم و بجای LAST فامیل موردنظرتان را قرار دهید .\n➖➖➖➖➖➖\n• setusername USERNAME\n• تنظیم نام کاربری\n••• به جای USERNAME نام کاربری مورد نظرتان را بدون @ قرار دهید .\n➖➖➖➖➖➖\n• delusername\n• حذف نام کاربری\n➖➖➖➖➖➖\n▪ از انتشار این سورس به هیچ وجه راضی نمیباشیم ...\n▪▪ نوشته شده توسط :\n▪▪ [Bibak](https://t.me/Lite_Team)\n▪▪▪ کانال :\n▪▪▪ [BG TeaM](https://t.me/Lite_Team)'
  edit(q.inline_message_id,""..text.."",keyboard)
             end
---------Info-------#Bibak
+--------Info-------#Lite Team
 								if q.data:match('wedjsa') then
                            local chat = '-'..q.data:match('(%d+)$')
 						   
@@ -321,7 +321,7 @@ local forcejoin = redis:get("bibak"..BOT.."forcejoin") and "✅️" or "⛔️"
             end	
 ----------------------
 -- Starting Setting --
---     By Bibak     --
+--   By Lite Team   --
 ----------------------
 			if q.data:match('setting') then
                            local chat = '-'..q.data:match('(%d+)$')
@@ -734,9 +734,9 @@ local forcejoin = redis:get("bibak"..BOT.."forcejoin") and "✅️" or "⛔️"
 ------------------------
 --      End BoT 1     --
 --   Starting BoT 2   --
---      By Bibak      --
+--    By Lite Team    --
 ------------------------
--------- Menu BoT 2-------#Bibak---------------
+-------- Menu BoT 2-------#Lite Team---------------
 							if q.data:match('firstxxmenu') then
 							local chat = '-'..q.data:match('(%d+)$')
 							local function is_lock(chat,value)
@@ -762,7 +762,7 @@ local forcejoin = redis:get("bibak"..BOT.."forcejoin") and "✅️" or "⛔️"
 							}
             edit(q.inline_message_id,'⇩⇩⇩⇩ *Panel For* `•[BoT 2]•` ⇩⇩⇩⇩',keyboard)
             end
---------Help-------#Bibak
+--------Help-------#Lite Team
 			if q.data:match('help2') then
                            local chat = '-'..q.data:match('(%d+)$')
 		                    local keyboard = {}
@@ -771,10 +771,10 @@ local forcejoin = redis:get("bibak"..BOT.."forcejoin") and "✅️" or "⛔️"
                    {text = '> Back', callback_data = 'firstxxmenu:'..chat}
 				}
 							}
-             local text = '•[⇩راهنمای دستورات⇩]•\n➖➖➖➖➖➖\n• reload contacts\n• بازنگری مخاطبین\n••• برای شمارش دقیق مخاطبین از این دستور استفاده نمایید.\n➖➖➖➖➖➖\n• modset USERID\n• افزودن ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• moddem USERID\n• حذف ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• link list\n• دریافت لیست لینک های ربات\n➖➖➖➖➖➖\n• fwd users\n• فروارد پیام به کاربران (با ریپلی)\n➖➖➖➖➖➖\n• fwd groups\n• فروارد پیام به گروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd sgroups\n• فروارد پیام به سوپرگروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd all\n• فروارد پیام به همه (کاربران،گروه ها،سوپرگروه ها)،(با ریپلی)\n➖➖➖➖➖➖\n• on\n• اطلاع از آنلاین بودن ربات\n➖➖➖➖➖➖\n• addall USERID\n• افزودن کاربر مورد نظر به تمامیه گروه ها\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• addcontacts\n• افزودن مخاطبان در گروه\n➖➖➖➖➖➖\n• reload stats\n• ریست کردن امار ربات\n➖➖➖➖➖➖\n• echo TEXT\n• تکرار کردن متن\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• bc TEXT\n• ارسال متن به تمامیه سوپرگروه ها\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• setname "FIRST" LAST\n• تنظیم نام\n••• به جای FIRST اسم و بجای LAST فامیل موردنظرتان را قرار دهید .\n➖➖➖➖➖➖\n• setusername USERNAME\n• تنظیم نام کاربری\n••• به جای USERNAME نام کاربری مورد نظرتان را بدون @ قرار دهید .\n➖➖➖➖➖➖\n• delusername\n• حذف نام کاربری\n➖➖➖➖➖➖\n▪ از انتشار این سورس به هیچ وجه راضی نمیباشیم ...\n▪▪ نوشته شده توسط :\n▪▪ [Bibak](https://t.me/bannedbylife)\n▪▪▪ کانال :\n▪▪▪ [BG TeaM](https://t.me/BG_TeaM)'
+             local text = '•[⇩راهنمای دستورات⇩]•\n➖➖➖➖➖➖\n• reload contacts\n• بازنگری مخاطبین\n••• برای شمارش دقیق مخاطبین از این دستور استفاده نمایید.\n➖➖➖➖➖➖\n• modset USERID\n• افزودن ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• moddem USERID\n• حذف ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• link list\n• دریافت لیست لینک های ربات\n➖➖➖➖➖➖\n• fwd users\n• فروارد پیام به کاربران (با ریپلی)\n➖➖➖➖➖➖\n• fwd groups\n• فروارد پیام به گروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd sgroups\n• فروارد پیام به سوپرگروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd all\n• فروارد پیام به همه (کاربران،گروه ها،سوپرگروه ها)،(با ریپلی)\n➖➖➖➖➖➖\n• on\n• اطلاع از آنلاین بودن ربات\n➖➖➖➖➖➖\n• addall USERID\n• افزودن کاربر مورد نظر به تمامیه گروه ها\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• addcontacts\n• افزودن مخاطبان در گروه\n➖➖➖➖➖➖\n• reload stats\n• ریست کردن امار ربات\n➖➖➖➖➖➖\n• echo TEXT\n• تکرار کردن متن\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• bc TEXT\n• ارسال متن به تمامیه سوپرگروه ها\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• setname "FIRST" LAST\n• تنظیم نام\n••• به جای FIRST اسم و بجای LAST فامیل موردنظرتان را قرار دهید .\n➖➖➖➖➖➖\n• setusername USERNAME\n• تنظیم نام کاربری\n••• به جای USERNAME نام کاربری مورد نظرتان را بدون @ قرار دهید .\n➖➖➖➖➖➖\n• delusername\n• حذف نام کاربری\n➖➖➖➖➖➖\n▪ از انتشار این سورس به هیچ وجه راضی نمیباشیم ...\n▪▪ نوشته شده توسط :\n▪▪ [Bibak](https://t.me/Lite_Team)\n▪▪▪ کانال :\n▪▪▪ [BG TeaM](https://t.me/Lite_Team)'
  edit(q.inline_message_id,""..text.."",keyboard)
             end
---------Info-------#Bibak
+--------Info-------#Lite Team
 								if q.data:match('info2') then
                            local chat = '-'..q.data:match('(%d+)$')
 						   
@@ -828,7 +828,7 @@ local forcejoin = redis:get("bibak"..BOT2.."forcejoin") and "✅️" or "⛔️"
 							}
               edit(q.inline_message_id, '⇩⇩⇩⇩ *Status For* `•[BoT 2]•` ⇩⇩⇩⇩',keyboard)
             end			
---------Stats-------#Bibak
+--------Stats-------#Lite Team
 							if q.data:match('stats2') then
                            local chat = '-'..q.data:match('(%d+)$')
 						   
@@ -859,7 +859,7 @@ local forcejoin = redis:get("bibak"..BOT2.."forcejoin") and "✅️" or "⛔️"
             end	
 ----------------------
 -- Starting Setting --
---     By Bibak     --
+--   By Lite Team   --
 ----------------------
 			if q.data:match('xxsetting') then
                            local chat = '-'..q.data:match('(%d+)$')
@@ -1272,9 +1272,9 @@ local forcejoin = redis:get("bibak"..BOT2.."forcejoin") and "✅️" or "⛔️"
 ------------------------
 --      End BoT 2     --
 --   Starting BoT 3   --
---      By Bibak      --
+--    By Lite Team    --
 ------------------------	
--------- Menu BoT 3-------#Bibak---------------
+-------- Menu BoT 3-------#Lite Team---------------
 							if q.data:match('firstyyymenu') then
 							local chat = '-'..q.data:match('(%d+)$')
 							local function is_lock(chat,value)
@@ -1309,10 +1309,10 @@ local forcejoin = redis:get("bibak"..BOT2.."forcejoin") and "✅️" or "⛔️"
                    {text = '> Back', callback_data = 'firstyyymenu:'..chat}
 				}
 							}
-             local text = '•[⇩راهنمای دستورات⇩]•\n➖➖➖➖➖➖\n• reload contacts\n• بازنگری مخاطبین\n••• برای شمارش دقیق مخاطبین از این دستور استفاده نمایید.\n➖➖➖➖➖➖\n• modset USERID\n• افزودن ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• moddem USERID\n• حذف ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• link list\n• دریافت لیست لینک های ربات\n➖➖➖➖➖➖\n• fwd users\n• فروارد پیام به کاربران (با ریپلی)\n➖➖➖➖➖➖\n• fwd groups\n• فروارد پیام به گروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd sgroups\n• فروارد پیام به سوپرگروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd all\n• فروارد پیام به همه (کاربران،گروه ها،سوپرگروه ها)،(با ریپلی)\n➖➖➖➖➖➖\n• on\n• اطلاع از آنلاین بودن ربات\n➖➖➖➖➖➖\n• addall USERID\n• افزودن کاربر مورد نظر به تمامیه گروه ها\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• addcontacts\n• افزودن مخاطبان در گروه\n➖➖➖➖➖➖\n• reload stats\n• ریست کردن امار ربات\n➖➖➖➖➖➖\n• echo TEXT\n• تکرار کردن متن\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• bc TEXT\n• ارسال متن به تمامیه سوپرگروه ها\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• setname "FIRST" LAST\n• تنظیم نام\n••• به جای FIRST اسم و بجای LAST فامیل موردنظرتان را قرار دهید .\n➖➖➖➖➖➖\n• setusername USERNAME\n• تنظیم نام کاربری\n••• به جای USERNAME نام کاربری مورد نظرتان را بدون @ قرار دهید .\n➖➖➖➖➖➖\n• delusername\n• حذف نام کاربری\n➖➖➖➖➖➖\n▪ از انتشار این سورس به هیچ وجه راضی نمیباشیم ...\n▪▪ نوشته شده توسط :\n▪▪ [Bibak](https://t.me/bannedbylife)\n▪▪▪ کانال :\n▪▪▪ [BG TeaM](https://t.me/BG_TeaM)'
+             local text = '•[⇩راهنمای دستورات⇩]•\n➖➖➖➖➖➖\n• reload contacts\n• بازنگری مخاطبین\n••• برای شمارش دقیق مخاطبین از این دستور استفاده نمایید.\n➖➖➖➖➖➖\n• modset USERID\n• افزودن ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• moddem USERID\n• حذف ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• link list\n• دریافت لیست لینک های ربات\n➖➖➖➖➖➖\n• fwd users\n• فروارد پیام به کاربران (با ریپلی)\n➖➖➖➖➖➖\n• fwd groups\n• فروارد پیام به گروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd sgroups\n• فروارد پیام به سوپرگروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd all\n• فروارد پیام به همه (کاربران،گروه ها،سوپرگروه ها)،(با ریپلی)\n➖➖➖➖➖➖\n• on\n• اطلاع از آنلاین بودن ربات\n➖➖➖➖➖➖\n• addall USERID\n• افزودن کاربر مورد نظر به تمامیه گروه ها\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• addcontacts\n• افزودن مخاطبان در گروه\n➖➖➖➖➖➖\n• reload stats\n• ریست کردن امار ربات\n➖➖➖➖➖➖\n• echo TEXT\n• تکرار کردن متن\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• bc TEXT\n• ارسال متن به تمامیه سوپرگروه ها\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• setname "FIRST" LAST\n• تنظیم نام\n••• به جای FIRST اسم و بجای LAST فامیل موردنظرتان را قرار دهید .\n➖➖➖➖➖➖\n• setusername USERNAME\n• تنظیم نام کاربری\n••• به جای USERNAME نام کاربری مورد نظرتان را بدون @ قرار دهید .\n➖➖➖➖➖➖\n• delusername\n• حذف نام کاربری\n➖➖➖➖➖➖\n▪ از انتشار این سورس به هیچ وجه راضی نمیباشیم ...\n▪▪ نوشته شده توسط :\n▪▪ [Bibak](https://t.me/Lite_Team)\n▪▪▪ کانال :\n▪▪▪ [BG TeaM](https://t.me/Lite_Team)'
  edit(q.inline_message_id,""..text.."",keyboard)
             end
---------Info-------#Bibak
+--------Info-------#Lite Team
 								if q.data:match('info3') then
                            local chat = '-'..q.data:match('(%d+)$')
 						   
@@ -1366,7 +1366,7 @@ local forcejoin = redis:get("bibak"..BOT3.."forcejoin") and "✅️" or "⛔️"
 							}
               edit(q.inline_message_id, '⇩⇩⇩⇩ *Status For* `•[BoT 3]•` ⇩⇩⇩⇩',keyboard)
             end			
---------Stats-------#Bibak
+--------Stats-------#Lite Team
 							if q.data:match('stats3') then
                            local chat = '-'..q.data:match('(%d+)$')
 						   
@@ -1397,7 +1397,7 @@ local forcejoin = redis:get("bibak"..BOT3.."forcejoin") and "✅️" or "⛔️"
             end	
 ----------------------
 -- Starting Setting --
---     By Bibak     --
+--   By Lite Team   --
 ----------------------
 			if q.data:match('yyysetting') then
                            local chat = '-'..q.data:match('(%d+)$')
@@ -1809,9 +1809,9 @@ local forcejoin = redis:get("bibak"..BOT3.."forcejoin") and "✅️" or "⛔️"
             end				
 -------------------
 --   End BoT 3   --
---   By Bibak    --
+-- By Lite Team  --
 -------------------
-			else Canswer(q.id,'⚠️Your Not Admin \n #Bibak ',true)
+			else Canswer(q.id,'⚠️Your Not Admin \n #Lite Team ',true)
 						end
 						end
           if msg.message and msg.message.date > (os.time() - 5) and msg.message.text then
@@ -1820,12 +1820,12 @@ local forcejoin = redis:get("bibak"..BOT3.."forcejoin") and "✅️" or "⛔️"
     local keyboard = {}
     keyboard.inline_keyboard = {
          {
-				 {text = '• Our Channel', url = 'https://t.me/BG_TeaM'}
+				 {text = '• Our Channel', url = 'https://t.me/Lite_Team'}
                 },{
-                   {text = '• Writer', url = 'https://t.me/im_Bibak'}
+                   {text = '• Writer', url = 'https://t.me/Lite_Team'}
 				   }
 							}
-        sendmsg(m.chat.id, "<b>• BG Tabchi iNLiNe</b> <code>Helper</code>", keyboard, true)
+        sendmsg(m.chat.id, "<b>• LT Tabchi iNLiNe</b> <code>Helper</code>", keyboard, true)
       end
    end
       end
@@ -1837,5 +1837,5 @@ local forcejoin = redis:get("bibak"..BOT3.."forcejoin") and "✅️" or "⛔️"
 return run()					
 -------------------
 -- End Panel.lua --
---   By Bibak    --
+-- By Lite Team  --
 -------------------
