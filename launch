@@ -40,5 +40,5 @@ sudo apt-get -y update && sudo apt-get -y upgrade
     echo "Panel now Running!"
 	sleep 5
     echo "The End!"
-    echo "@BG_TeaM"
+    echo "@Lite_Team"
 fi
