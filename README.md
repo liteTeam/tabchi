@@ -3,7 +3,7 @@
 در [کانال تلگرامی](https://telegram.me/Lite_Team)  قرار داده شده 
 لطفا با مراجعه به کانال از آموزش ساخت ربات مستفید بشید
  
- # Debuged By Lite Team
+ ## Debuged By Lite Team
 اموزش های بیش تر در کانال
 
 # [اموزش ویدیوی نصب سورس و اتولانچ](https://telegram.me/Lite_Team)
