@@ -12,7 +12,6 @@
 ###  Telegram channel:
 
 # [Lite Team](https://telegram.me/Lite_Team)
-# [Ultera Gap](https://telegram.me/UlteraGap)
 
 * * *
 》*Please send us your stars☆ at the top of this page*
